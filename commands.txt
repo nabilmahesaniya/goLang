@@ -1,0 +1,32 @@
+// so anyone can know how commit or make any changes
+git config --global user.name Nabil
+git config --global user.email nabilmahesaniya@gmail.com
+
+// to check the username and email
+git config --global user.name
+git config --hlobal user.email
+
+//to run or open vs code
+code .
+
+// to initialize any folder from scartch
+git init
+
+//shows hidden folders
+ls -lart
+
+// how to check the status of your files(untracked / tracked)
+git status
+
+// how to move any file to staging area
+git add hello.go (filename)
+
+//to began any project tracking
+git commit
+
+// after committing if you want to write press i
+// and if you want to quite press ESC :wq
+
+// how to make a file
+touch variable.go (filename)
+
