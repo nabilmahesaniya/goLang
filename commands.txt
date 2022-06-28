@@ -30,3 +30,37 @@ git commit
 // how to make a file
 touch variable.go (filename)
 
+// how to add all the file together
+git add -A
+
+// commit easier way
+git commit -m "add files" ( "write whatever you like")
+
+// to recover file if you accidentally wrote something 
+// help to bring the old file
+git checkout variable.go ( filename)
+
+// if someone messed all the files you have
+git checkout -f
+
+// to get all the detail information of what all you have done
+git log
+
+// let say you have commit 1000 files but want to see last 5 or 10 file
+// press Q then to quit
+git log -p -1 ( -1 can be any number of files you want to display)
+
+// when you want to see any difference you did and forgot
+git diff
+
+//if you commit all files and want to see the just one file differecne
+git diff variable.go (filename)
+
+// to see all th files
+ls
+
+// how to delete any file but not from your hard-disk
+git rm --cached waste.go
+
+
+
