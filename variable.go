@@ -12,4 +12,7 @@ func main() {
 	b := 33
 	fmt.Println(b, a)
 
+	c := a
+	fmt.Println(c)
+
 }
