@@ -62,5 +62,13 @@ ls
 // how to delete any file but not from your hard-disk
 git rm --cached waste.go
 
+// to delete directly
+git rm waste.go (filename)
+
+// to get short status
+git status -s
+
+// how to create gitignore
+
 
 
