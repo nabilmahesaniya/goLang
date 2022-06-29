@@ -30,7 +30,7 @@ git commit
 // how to make a file
 touch variable.go (filename)
 
-// how to add all the file together
+// how to add all the file together in staging area
 git add -A
 
 // commit easier way
