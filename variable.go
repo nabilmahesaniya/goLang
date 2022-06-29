@@ -16,4 +16,7 @@ func main() {
 	//c := a
 	//fmt.Println(c)
 
+	d := b
+	fmt.Println(d)
+
 }
