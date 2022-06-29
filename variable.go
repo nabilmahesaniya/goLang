@@ -10,6 +10,6 @@ func main() {
 	fmt.Println(a)
 
 	b := 33
-	fmt.Println(b)
+	fmt.Println(b, a)
 
 }
